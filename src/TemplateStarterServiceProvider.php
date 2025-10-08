@@ -8,13 +8,15 @@ class TemplateStarterServiceProvider extends ServiceProvider
 {
     public function boot()
     {
+        // Publish langsung ke folder resources/views bawaan Laravel
         $this->publishes([
-            __DIR__ . '/../resources/views' => resource_path('views/vendor/vistek-template-starter'),
-        ], 'views');
+            __DIR__ . '/../resources/views' => resource_path('views'),
+        ], 'vistek-views');
 
+        // Publish langsung ke public bawaan Laravel
         $this->publishes([
-            __DIR__ . '/../public' => public_path('vendor/vistek-template-starter'),
-        ], 'assets');
+            __DIR__ . '/../public' => public_path(),
+        ], 'vistek-assets');
     }
 
     public function register()
