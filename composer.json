@@ -3,12 +3,6 @@
     "description": "A Laravel package for default project templates (layouts and CSS).",
     "type": "library",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Rivan Agustiawan",
-            "email": "rivanagustiawan00@gmail.com"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "rivanagustiawan\\TemplateStarter\\": "src/"
