@@ -1,5 +1,5 @@
 {
-    "name": "rivanagustiawan/template-starter",
+    "name": "rivanagustiawan/vistek-template-starter",
     "description": "A Laravel package for default project templates (layouts and CSS).",
     "type": "library",
     "license": "MIT",
