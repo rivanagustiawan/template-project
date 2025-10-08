@@ -5,13 +5,13 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "rivanagustiawan\\vistek-template-starter\\": "src/"
+            "rivanagustiawan\\VistekTemplateStarter\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "rivanagustiawan\\vistek-template-starter\\TemplateStarterServiceProvider"
+                "rivanagustiawan\\VistekTemplateStarter\\TemplateStarterServiceProvider"
             ]
         }
     },

@@ -1,6 +1,6 @@
 <?php
 
-namespace rivanagustiawan\vistek_template_starter;
+namespace rivanagustiawan\VistekTemplateStarter;
 
 use Illuminate\Support\ServiceProvider;
 
