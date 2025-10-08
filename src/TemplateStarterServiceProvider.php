@@ -1,6 +1,6 @@
 <?php
 
-namespace YourName\TemplateStarter;
+namespace rivanagustiawan\TemplateStarter;
 
 use Illuminate\Support\ServiceProvider;
 
