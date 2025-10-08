@@ -1,0 +1,119 @@
+.schedule-matches .col-date .text-day {
+    font-size: 1.5rem;
+}
+.schedule-matches .col-date .text-day-no {
+    font-size: 2rem;
+    border-right: 2px solid #856509;
+    padding-right: 7px;
+}
+
+.schedule-matches .match-card {
+    background: rgba(255, 255, 255, 0.65);
+    /* border: 1px solid #3737371F; */
+    border: 1px solid #EB9701;
+    border-radius: 7px;
+    padding: 15px 10px;
+    height: 100px;
+}
+.schedule-matches .match-card .team-info-outer {
+    width: 100px;
+}
+.schedule-matches .match-card .team-logo {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.schedule-matches .match-card .team-logo img {
+    width: 45px;
+    aspect-ratio: 1;
+}
+.schedule-matches .match-card .team-name {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: .85rem;
+    font-weight: 700;
+}
+.schedule-matches .match-card .team-score {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.schedule-matches .match-card .time-info {
+    /* background: linear-gradient(270deg, rgba(144, 120, 63, 0) -28.57%, #55451F 49.88%, rgba(144, 120, 63, 0) 126.79%); */
+    /* border-radius: 20px; */
+    background: #2C2C2C;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    filter: drop-shadow(0 0.1rem 0.1rem rgba(0, 0, 0, 0.4));
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 3px 10px;
+    font-size: .7rem;
+}
+
+/* match done */
+.schedule-matches .match-card.match-done .team-logo,
+.schedule-matches .match-card.match-done .team-name,
+.schedule-matches .match-card.match-done .team-score {
+    opacity: .5;
+    filter: grayscale(1);
+}
+.schedule-matches .match-card.match-done .team-info-outer.winner .team-logo,
+.schedule-matches .match-card.match-done .team-info-outer.winner .team-name,
+.schedule-matches .match-card.match-done .team-score.winner {
+    opacity: 1;
+    filter: none;
+}
+.schedule-matches .match-card.match-done .team-score.winner {
+    color: #EB9701;
+    transform: scale(1.2);
+}
+
+/* sm: phone - landscape */
+@media (min-width: 576px) {
+}
+
+/* md: tablet */
+@media (min-width: 768px) {
+}
+
+/* lg: desktop */
+@media (min-width: 992px) {
+    .schedule-matches .match-card {
+        height: 120px;
+    }
+    .schedule-matches .col-date .text-day {
+        font-size: 1.25rem;
+        filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.4));
+    }
+    .schedule-matches .col-date .text-day-no {
+        font-size: 3rem;
+        line-height: .93;
+        filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.4));
+        border-right: none !important;
+        padding-right: 0;
+    }
+    .schedule-matches .col-date .text-italic {
+        font-style: italic;
+    }
+    .schedule-matches .col-date {
+        line-height: 1;
+        padding-right: 20px;
+        border-right: 2px solid #856509;
+        min-width: 120px;
+    }
+    .schedule-matches .match-card .time-info {
+        font-size: .8rem;
+    }
+    
+}
+
+/* xl: wide */
+@media (min-width: 1200px) {
+}
+
+/* super wide */
+@media (min-width: 1440px) {
+}

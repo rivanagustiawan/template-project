@@ -1,0 +1,119 @@
+.sidebar {
+    background:#6f2875 !important;
+}
+
+.main .btn-primary {
+    background-color:#bf9456 !important;
+    border: #bf9456 !important;
+}
+
+.main .btn-success {
+    background:#6f2875 !important;
+    border: #6f2875 
+}
+.main .page-item.active .page-link {
+    background:#6f2875 !important;
+}
+.main .btn-link {
+    color: #eb8774;
+}
+
+.note-editor button {
+    background:white !important;
+}
+
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+}
+
+.card button {
+    background: #6f2875;
+    border: none;
+    color: white;
+}
+
+.card button:hover {
+    background: #91238C;
+}
+
+.main .card {
+    background: white !important;
+}
+
+.main .form-group label {
+    color: #506690 !important;
+}
+.main .form-group input {
+    /* background: #FFFFFF !important; */
+    color: #506690 !important;
+}
+a {
+    color: #ef9a76;
+}
+.app h3 {
+    font-size: 44px !important;
+}
+
+.app-header {
+    background:#eb8774 !important;
+}
+.app-body .sidebar.sidebar-pills{
+    flex: 0 0 250px !important;
+}
+
+.sidebar .sidebar-nav {
+    width:235px !important;
+}
+
+.sidebar .nav {
+    width:235px !important;
+}
+
+.nav-dropdown-toggle::before {
+    filter: brightness(0) invert(1);
+}
+
+.sidebar.sidebar-pills .nav-item .active  {
+    color: #ef9a76 !important;
+}
+.sidebar.sidebar-pills .nav-link  {
+    color: white !important;
+}
+.sidebar.sidebar-pills .nav-link:hover  {
+    color: #ef9a76 !important;
+}
+
+.sidebar.sidebar-pills .nav-link:hover .nav-icon  {
+    color: #ef9a76 !important;
+}
+.sidebar.sidebar-pills .nav-icon   {
+    color: white !important;
+}
+.app-header.bg-light .navbar-brand {
+    opacity: 1 !important;
+    font-size: 32px !important;
+    color: white !important;
+    text-align: center !important;
+}
+
+.form-control[readonly] {
+    background-color:#c0c0c0 !important;
+}
+
+.delete-element {
+    color: black !important;
+    font-size: 1.2rem;
+    line-height: 0 !important;
+}
+
+.cropperImage img {
+    height: 100px !important;
+}
+
+.navbar-filters span.select2-dropdown.select2-dropdown--below {
+    width: 300px !important;
+}
+
+.navbar-filters .select2-container--bootstrap.select2-container--below .select2-selection, .navbar-filters .select2.select2-container {
+    width: 300px !important;
+}

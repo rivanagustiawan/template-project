@@ -1,0 +1,10 @@
+:root {
+    --themecolor: #00000;
+    --themecolor-hover: #00000; 
+
+    --blue: #2d91a8;
+}
+
+body {
+    color: var(--themecolor);
+}
